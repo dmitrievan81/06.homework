@@ -4,7 +4,7 @@ project(05.homework)
 
 add_executable(array_test
     src/array.cpp
-    src/array_test.cpp
+    array_test.cpp
 )
 
-target_include_directories(array_test PRIVATE include)
+target_include_directories(array_test PRIVATE include/)
